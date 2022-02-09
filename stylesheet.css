@@ -311,3 +311,55 @@ span:hover:after {
 .contact {
 	padding: 20px;
 }
+
+.column {
+	float: left;
+	width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.aboutmeimage {
+	width: 80%;
+	border-radius: 50%;
+	float: right;
+	margin-bottom: 100px;
+}
+
+.column H1,
+.column H2 {
+	text-align: left;
+	color: #935f6f;
+	font-family: "American Typewriter", sans-serif;
+}
+
+.CVbutton {
+	background: transparent;
+	color: #935f6f;
+	border: 2px solid #935f6f;
+	font-size: 20px;
+	letter-spacing: 2px;
+	padding: 15px 50px;
+	text-transform: uppercase;
+	cursor: pointer;
+	display: inline-block;
+	margin: 15px 30px;
+
+	/* animate and time the transitions*/
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+.CVbutton:hover {
+	background-color: #935f6f;
+	color: black;
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	transition: all 0.4s;
+}
