@@ -174,8 +174,9 @@ h3 {
 	font-size: 17px;
 	color: black;
 }
-
-.about button {
+.CVbutton,
+.about button,
+.contentButton {
 	background: transparent;
 	color: #935f6f;
 	border: 2px solid #935f6f;
@@ -193,12 +194,18 @@ h3 {
 	transition: all 0.4s;
 }
 
-.about button:hover {
+.CVbutton:hover,
+.about button:hover,
+.contentButton:hover {
 	background-color: #935f6f;
 	color: black;
 	-webkit-transition: all 0.4s;
 	-moz-transition: all 0.4s;
 	transition: all 0.4s;
+}
+
+.contentButton {
+	align-items: center;
 }
 
 .footer {
@@ -362,4 +369,8 @@ span:hover:after {
 	-webkit-transition: all 0.4s;
 	-moz-transition: all 0.4s;
 	transition: all 0.4s;
+}
+
+.column-3 {
+	width: 100%;
 }
