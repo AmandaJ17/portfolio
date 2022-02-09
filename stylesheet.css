@@ -374,3 +374,10 @@ span:hover:after {
 .column-3 {
 	width: 100%;
 }
+
+.games-content,
+.BnBcontent {
+	padding: 100px;
+	margin: 50px;
+	text-align: center;
+}
