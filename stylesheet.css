@@ -338,11 +338,17 @@ span:hover:after {
 	margin-bottom: 100px;
 }
 
-.column H1,
-.column H2 {
-	text-align: left;
+.about-content H1 {
 	color: #935f6f;
 	font-family: "American Typewriter", sans-serif;
+	font-size: 60px;
+}
+.about-content H2 {
+	color: black;
+	font-family: "American Typewriter", sans-serif;
+	text-align: left;
+	font-weight: lighter;
+	font-size: 25px;
 }
 
 .CVbutton {
