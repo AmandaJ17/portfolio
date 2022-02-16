@@ -255,7 +255,7 @@ h3 {
 	text-align: center;
 }
 
-span {
+.herocontent span {
 	position: absolute;
 	left: 50%;
 	top: 50%;
@@ -268,7 +268,7 @@ span {
 	margin: 20px;
 }
 
-span::before {
+.herocontent span::before {
 	content: "HELLO WORLD";
 	position: absolute;
 	color: transparent;
@@ -404,4 +404,41 @@ span:hover:after {
 
 .card a {
 	text-decoration: none;
+}
+
+.hrcontent h3 {
+	color: #7ea0a4;
+	text-transform: uppercase;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hrcontent img {
+	width: 100%;
+	padding-top: 20px;
+}
+
+.hrcontentbutton {
+	background: transparent;
+	color: #7ea0a4;
+	border: 2px solid #7ea0a4;
+	font-size: 20px;
+	letter-spacing: 2px;
+	padding: 15px 50px;
+	text-transform: uppercase;
+	cursor: pointer;
+	display: inline-block;
+	margin: 15px 30px;
+
+	/* animate and time the transitions*/
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+.hrcontentbutton:hover {
+	background-color: #7ea0a4;
+	color: black;
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	transition: all 0.4s;
 }
