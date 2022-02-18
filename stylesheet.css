@@ -406,6 +406,17 @@ span:hover:after {
 	width: 100%;
 }
 
+.BnBcontent {
+	background-color: black;
+	color: white;
+	text-align: left;
+}
+
+.BnBcontent H3 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+}
+
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 600px) {
 	.topnav a,
