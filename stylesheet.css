@@ -410,6 +410,12 @@ span:hover:after {
 	color: #7ea0a4;
 	text-transform: uppercase;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 25px;
+}
+
+.hrcontent p {
+	font-size: 18px;
+	line-height: 22px;
 }
 
 .hrcontent img {
@@ -441,4 +447,8 @@ span:hover:after {
 	-webkit-transition: all 0.4s;
 	-moz-transition: all 0.4s;
 	transition: all 0.4s;
+}
+
+.wireframes {
+	width: 100%;
 }
